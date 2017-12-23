@@ -90,9 +90,6 @@ cleancity = clean_city_df.dropna(axis=0, how='any')
 cleancity["Date"]= cleancity["Date"].astype(int)
 cleancity = cleancity.drop('City', 1)
 
-```
-
-```python
 # Counts of clean version if cities dataframe
 cleancity.count()
 ```
