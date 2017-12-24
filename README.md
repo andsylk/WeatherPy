@@ -83,8 +83,6 @@ for index,row in clean_city_df.iterrows():
         time.sleep(60)
         continue
 
-
-```python
 # Clean up dataframe 
 cleancity = clean_city_df.dropna(axis=0, how='any')
 cleancity["Date"]= cleancity["Date"].astype(int)
@@ -106,16 +104,9 @@ cleancity.count()
     Wind Speed    538
     dtype: int64
 
-
-
-
 ```python
 cleancity.head()
 ```
-
-
-
-
 <div>
 <style>
     .dataframe thead tr:only-child th {
