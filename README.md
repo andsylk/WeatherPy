@@ -30,7 +30,7 @@ plt.style.use("seaborn")
 import time
 
 # API Key
-api_key = "43f0caa6aca8465b6f439da6bda4e8ca"
+api_key = ""
 
 # Build query URL
 units = "imperial"
