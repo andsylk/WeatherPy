@@ -1,5 +1,15 @@
 
 ### WeatherPy Analysis
+
+#### Summary
+Using Python, MatPlotlib, the OpenWeatherMap API, I created a script to visualize the weather of 500+ cities across the world of varying distance from the equator.  After creating a script, I plotted a series of scatter plots to show the following relationships:  
+
+Temperature (F) vs. Latitude
+Humidity (%) vs. Latitude
+Cloudiness (%) vs. Latitude
+Wind Speed (mph) vs. Latitude
+
+
 #### Observed Trends
 
 #### 1) Cloudiness has the least correlation with Latitude compared with other variables.  The slope is basically flat.
